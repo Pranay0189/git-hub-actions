@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greeting
-        run: echo "Hello from github actions"
-      - name: print goodbye
-        run: echo "bye, from github actions"
+        run: |
+          sh apt install nginx -y
+          
