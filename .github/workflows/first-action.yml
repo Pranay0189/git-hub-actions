@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: print greeting
         run: |
-          apt install nginx -y
+          sudo apt install nginx -y
           
